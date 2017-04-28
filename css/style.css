@@ -3,17 +3,53 @@
   margin-top: 50px;
   border: 2px solid #F15A29;
   padding: 3%;
+  margin:30px;
 }
 #logo{
   background-image: url("../image/backgrounds/landing.jpg");
-  height: 400px;
+  height: 450px;
+}
+#logo1{
   color:white;
   font-size: 30px;
   align-items: center;
+  margin-left: 35%;
+  margin-top: 5%;
 }
 #fastfoodsample{
   background-image: url("../image/backgrounds/foodsBg.jpg");
-  height: 100px;
+}
+#break{
+  color: white;
+}
+#breakfast{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+#happyhour{
+  text-align: center;
+  background-color:;
+    padding-top: 10px;
+}
+#partytime{
+  background-color: #F15A29;
+    padding-top: 10px;
+    text-align: center;
+}
+#lunch{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  opacity:1;
+}
+#dinner{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
 }
 #fastfoodimage{
   background-image: url("../image/backgrounds/subscribe.jpg");
@@ -21,7 +57,7 @@
   margin-top: 20px;
 }
 button{
-  background-color: #F15A29;
+  background-color: rgb(255, 72, 0);;
 }
 #subscribe{
   padding-top: 40px;
