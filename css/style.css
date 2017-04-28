@@ -1,0 +1,20 @@
+
+#fastfood{
+  margin-top: 50px;
+  border: 2px solid #F15A29;
+  padding: 3%;
+}
+#logo{
+  background-image: url("../image/backgrounds/landing.jpg");
+  height: 400px;
+  color:white;
+  font-size: 20px;
+  align-items: center;
+}
+#fastfoodsample{
+  background-image: url("../image/backgrounds/foodsBg.jpg");
+  height: 100px;
+}
+#fastfoodimage{
+  background-image: url("../image/backgrounds/subscribe.jpg");
+}
