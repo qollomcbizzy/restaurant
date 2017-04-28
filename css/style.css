@@ -8,7 +8,7 @@
   background-image: url("../image/backgrounds/landing.jpg");
   height: 400px;
   color:white;
-  font-size: 20px;
+  font-size: 30px;
   align-items: center;
 }
 #fastfoodsample{
@@ -17,4 +17,19 @@
 }
 #fastfoodimage{
   background-image: url("../image/backgrounds/subscribe.jpg");
+  height: 200px;
+  margin-top: 20px;
+}
+button{
+  background-color: #F15A29;
+}
+#subscribe{
+  padding-top: 40px;
+}
+#myfooter{
+  background-color: rgb(255, 72, 0);
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
 }
