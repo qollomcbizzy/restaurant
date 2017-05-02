@@ -2,8 +2,23 @@
 #fastfood{
   margin-top: 50px;
   border: 2px solid #F15A29;
-  padding: 3%;
-  margin:30px;
+  padding: 2%;
+}
+#fastfoods{
+  margin-top: 50px;
+  padding-left: 50px;
+}
+#fastdrinks{
+  margin-top: 50px;
+  text-align: right;
+  padding-right: 50px;
+}
+#viewgallery{
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+  height: 50px;
+  padding-top:10px;
+  margin-left:60px;
 }
 #logo{
   background-image: url("../image/backgrounds/landing.jpg");
@@ -28,10 +43,22 @@
   color: white;
   padding-top: 10px;
 }
-#happyhour{
+.happyhour{
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
   text-align: center;
-  background-color:;
-    padding-top: 10px;
+}
+.happyhourlist{
+  float: left;
+  background-color:grey;
+    padding: 10px;
+    text-align: center;
+}
+.happyhourlink{
+  text-decoration: none;
 }
 #partytime{
   background-color: #F15A29;
