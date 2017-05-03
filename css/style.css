@@ -109,6 +109,40 @@ ul.fastfoodsample{
   font-size: 15px;
   font-weight:100;
 }
+#navfoods{
+  background-image: url("../image/backgrounds/foodsBg.jpg");
+}
+#foodscontainer{
+  background-color: white;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#navbarfoods{
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  background-color: rgb(219, 224, 241);
+}
+#navbarfoods li{
+  float: left;
+  border-right: 1px solid #bbb;
+}
+#navbarfoods li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+}
+#active{
+  background-color: white;
+}
+.navspan{
+  padding-top: 40%;
+  padding-bottom: 40%;
+  color: red;
+  font-weight: 200;
+}
 button{
   background-color: rgb(255, 72, 0);;
 }
