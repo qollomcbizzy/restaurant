@@ -31,11 +31,32 @@
   margin-left: 35%;
   margin-top: 5%;
 }
-#fastfoodsample{
+ul.fastfoodsample{
+  overflow: hidden;
   background-image: url("../image/backgrounds/foodsBg.jpg");
+  margin: 0px;
+  width: 100%;
+  list-style-type: none;
+  font-size: 30px;
+  color: white;
+}
+.fastfoodsamplelist1{
+  float:left;
+}
+#fastfoodsamplelist2{
+  text-align: center;
+  padding: 70px 40px;
+  display:block;
 }
 #break{
   color: white;
+  list-style-type: none;
+}
+
+#break li{
+  padding: 24px 30px;
+  text-align: center;
+  display: block;
 }
 #breakfast{
   font-size: 30px;
