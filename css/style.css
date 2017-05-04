@@ -187,7 +187,7 @@ ul.subtopnav{
   padding-top: 20px;
 }
 #happycustomer h4{
-  color:red;
+  color:rgb(255, 72, 0);
   text-align:center;
 }
 #happycustomer h5{
@@ -198,7 +198,7 @@ ul.subtopnav{
 }
 #happycustomerdiv  span{
   padding-top: 15px;
-  color: red;
+  color: rgb(255, 72, 0);
 }
 #happycustomerdiv li{
   margin-left: 8px;
@@ -206,22 +206,46 @@ ul.subtopnav{
   list-style-type: none;
 }
 #aboutmenu h4{
-  color:red;
+  color:rgb(255, 72, 0);
   text-align:center;
 }
 #aboutmenu p{
   text-align: center;
 }
 button.subscribe{
-  background-color: rgb(255, 72, 0);;
+  background-color: rgb(255, 72, 0);
 }
 #subscribe{
   padding-top: 40px;
 }
 #myfooter{
   background-color: rgb(255, 72, 0);
-  height: 100px;
+  height: 200px;
   color: white;
   font-size: 20px;
   padding-top: 20px;
+}
+#facebook{
+background-image: url("../image/footerlogos/facebook.png");
+padding-top: 7px;
+font-weight: bold;
+text-align: center;
+height: 39px;
+width: 39px;
+}
+#twitter{
+background-image: url("../image/footerlogos/twitter.png");
+padding-top: 7px;
+font-weight: bold;
+text-align: center;
+height: 39px;
+width: 39px;
+}
+#piinterest{
+  background-image: url("../image/footerlogos/pinterest.png");
+  padding-top: 7px;
+  font-weight: bold;
+  text-align: center;
+  height: 39px;
+  width: 39px;
 }
