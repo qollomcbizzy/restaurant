@@ -24,37 +24,74 @@
   margin-left: 35%;
   margin-top: 5%;
 }
-ul.fastfoodsample{
+ul.topnav{
   overflow: hidden;
-  background-image: url("../image/backgrounds/foodsBg.jpg");
   margin: 0px;
   list-style-type: none;
   font-size: 30px;
-  color: white;
 }
-.fastfoodsamplelist1{
-  float:left;
+ul.subtopnav{
+  overflow: hidden;
+  margin: 0px;
+  list-style-type: none;
+  font-size: 30px;
 }
-#fastfoodsamplelist2{
+#happyhour{
+  background-color: white;
+}
+#happyhour li{
   text-align: center;
-  padding: 70px 40px;
-  display:block;
-}
-#break{
-  color: white;
+  padding: 25px 25px;
   list-style-type: none;
 }
-
-#break li{
-  padding: 24px 40px;
+#happyhour li a{
+  text-decoration: none;
+  color: grey;
+}
+#partytime{
+  background-color: rgb(255, 72, 0);
+}
+#partytime li{
   text-align: center;
-  display: block;
+  padding: 34px 60px;
+  list-style-type: none;
+}
+#partytime li a{
+  text-decoration: none;
+  color: white;
 }
 #breakfast{
-  font-size: 30px;
+  background-image: url("../image/foodtop/breakfast.jpg");
+}
+#breakfast li{
   text-align: center;
+  padding: 85px 85px;
+}
+#breakfast li a{
+  text-decoration: none;
   color: white;
-  padding-top: 10px;
+}
+#lunch{
+  background-image: url("../image/foodtop/dinner2.jpg");
+}
+#lunch li{
+  text-align: center;
+  padding: 80px 80px;
+}
+#lunch li a{
+  text-decoration: none;
+  color: white;
+}
+#dinner{
+  background-image: url("../image/foodtop/dinner.jpg");
+}
+#dinner li{
+  text-align: center;
+  padding: 80px 80px;
+}
+#dinner li a{
+  text-decoration: none;
+  color: white;
 }
 .happyhour{
   list-style-type: none;
@@ -142,6 +179,38 @@ ul.fastfoodsample{
   padding-bottom: 40%;
   color: red;
   font-weight: 200;
+}
+#customer{
+  border: 2px solid rgb(196, 206, 234);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 20px;
+}
+#happycustomer h4{
+  color:red;
+  text-align:center;
+}
+#happycustomer h5{
+  text-align:center;
+}
+#happycustomer p{
+  text-align: center;
+}
+#happycustomerdiv  span{
+  padding-top: 15px;
+  color: red;
+}
+#happycustomerdiv li{
+  margin-left: 8px;
+  float: left;
+  list-style-type: none;
+}
+#aboutmenu h4{
+  color:red;
+  text-align:center;
+}
+#aboutmenu p{
+  text-align: center;
 }
 button{
   background-color: rgb(255, 72, 0);;
