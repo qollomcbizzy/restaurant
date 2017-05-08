@@ -1,4 +1,74 @@
 
+#logo{
+  background-image: url("../image/backgrounds/landing.jpg");
+
+}
+#logo1{
+  color:white;
+  font-size: 30px;
+  align-items: center;
+  padding-left: 35%;
+  padding-top: 5%;
+}
+#happyhour{
+  background-color: rgb(226, 230, 217);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+  #happyhour a{
+  text-decoration: none;
+  color: grey;
+}
+#partytime{
+  background-color: rgb(255, 72, 0);
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 30px;
+  font-family: serif;
+}
+  #partytime a{
+  text-decoration: none;
+  color: white;
+}
+#breakfast{
+  background-image: url("../image/foodtop/breakfast.jpg");
+  text-align: center;
+  padding: 81px 81px;
+  font-size: 30px;
+  font-family:serif;
+  font-weight: 400;
+}
+#breakfast  a{
+  text-decoration: none;
+  color: white;
+}
+#lunch{
+  background-image: url("../image/foodtop/lunch.jpg");
+  text-align: center;
+  padding: 81px 81px;
+  font-size: 30px;
+  font-family:serif;
+  font-weight: bolder;
+  font-style: oblique;
+  opacity:1;
+}
+#lunch a{
+  text-decoration: none;
+  color: white;
+}
+#dinner{
+  background-image: url("../image/foodtop/dinner.jpg");
+  text-align: center;
+  padding: 81px 81px;
+  font-size: 30px;
+}
+#dinner  a{
+  text-decoration: none;
+  color: white;
+}
 #fastfood{
   margin-top: 50px;
   border: 2px solid rgb(196, 206, 234);
@@ -8,125 +78,28 @@
   margin-top: 50px;
   padding-left: 50px;
 }
+#fastfoods p{
+  color: grey;
+  font-weight: 200;
+}
+#fastfoods h3{
+  font-weight: bold;
+  font-family: serif;
+  font-size: 30px;
+}
 #fastdrinks{
   margin-top: 50px;
   text-align: right;
   padding-right: 50px;
 }
-#logo{
-  background-image: url("../image/backgrounds/landing.jpg");
-  height: 450px;
-}
-#logo1{
-  color:white;
-  font-size: 30px;
-  align-items: center;
-  margin-left: 35%;
-  margin-top: 5%;
-}
-ul.topnav{
-  overflow: hidden;
-  margin: 0px;
-  list-style-type: none;
-  font-size: 30px;
-}
-ul.subtopnav{
-  overflow: hidden;
-  margin: 0px;
-  list-style-type: none;
-  font-size: 30px;
-}
-#happyhour{
-  background-color: white;
-}
-#happyhour li{
-  text-align: center;
-  padding: 25px 25px;
-  list-style-type: none;
-}
-#happyhour li a{
-  text-decoration: none;
+#fastdrinks p{
   color: grey;
+  font-weight: 200;
 }
-#partytime{
-  background-color: rgb(255, 72, 0);
-}
-#partytime li{
-  text-align: center;
-  padding: 34px 60px;
-  list-style-type: none;
-}
-#partytime li a{
-  text-decoration: none;
-  color: white;
-}
-#breakfast{
-  background-image: url("../image/foodtop/breakfast.jpg");
-}
-#breakfast li{
-  text-align: center;
-  padding: 85px 85px;
-}
-#breakfast li a{
-  text-decoration: none;
-  color: white;
-}
-#lunch{
-  background-image: url("../image/foodtop/dinner2.jpg");
-}
-#lunch li{
-  text-align: center;
-  padding: 80px 80px;
-}
-#lunch li a{
-  text-decoration: none;
-  color: white;
-}
-#dinner{
-  background-image: url("../image/foodtop/dinner.jpg");
-}
-#dinner li{
-  text-align: center;
-  padding: 80px 80px;
-}
-#dinner li a{
-  text-decoration: none;
-  color: white;
-}
-.happyhour{
-  list-style-type: none;
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  padding: 10px;
-  text-align: center;
-}
-.happyhourlist{
-  float: left;
-  background-color:grey;
-    padding: 10px;
-    text-align: center;
-}
-.happyhourlink{
-  text-decoration: none;
-}
-#partytime{
-  background-color: #F15A29;
-    padding-top: 10px;
-    text-align: center;
-}
-#lunch{
+#fastdrinks h3{
+  font-family: serif;
+  font-weight: bold;
   font-size: 30px;
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  opacity:1;
-}
-#dinner{
-  font-size: 30px;
-  text-align: center;
-  color: white;
-  padding-top: 10px;
 }
 #fastfoodimage{
   background-image: url("../image/backgrounds/subscribe.jpg");
@@ -137,7 +110,7 @@ ul.subtopnav{
   width: 170px;
   height: 50px;
   background-color: white;
-  border: 1px solid rgb(255, 72, 0);
+  border: 0.5px solid rgb(255, 72, 0);
 }
 #buttongallery {
   border-left-color:2px solid ;
@@ -214,16 +187,31 @@ ul.subtopnav{
 }
 button.subscribe{
   background-color: rgb(255, 72, 0);
+  padding-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
 }
 #subscribe{
-  padding-top: 40px;
+  padding-top: 25px;
+  padding: 25px;
+  background-color:inherit;
+  font-size: 20px;
+  color:white;
 }
 #myfooter{
   background-color: rgb(255, 72, 0);
-  height: 200px;
   color: white;
-  font-size: 20px;
   padding-top: 20px;
+  padding-bottom: 30px;
+}
+/*for the footer paragraph tag*/
+#p1{
+  font-size: 25px;
+}
+#p2{
+  font-size: 20px;
+  padding-left: 72px;
 }
 #facebook{
 background-image: url("../image/footerlogos/facebook.png");
@@ -232,20 +220,36 @@ font-weight: bold;
 text-align: center;
 height: 39px;
 width: 39px;
+color: red;
+text-align: center;
+background-repeat: no-repeat;
+margin-right:10px;
+font-size: 20px;
 }
 #twitter{
 background-image: url("../image/footerlogos/twitter.png");
 padding-top: 7px;
 font-weight: bold;
 text-align: center;
-height: 39px;
-width: 39px;
+height: 42px;
+width: 42px;
+color: red;
+text-align: center;
+background-repeat: no-repeat;
+margin-left: 20px;
+margin-right: 10px;
+font-size: 20px;
 }
 #piinterest{
   background-image: url("../image/footerlogos/pinterest.png");
-  padding-top: 7px;
+  padding-top: 5px;
   font-weight: bold;
   text-align: center;
-  height: 39px;
-  width: 39px;
+  height: 50px;
+  width: 50px;
+  color: red;
+  padding-left: 5px;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  font-size: 20px;
 }
