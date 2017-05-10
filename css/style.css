@@ -216,11 +216,10 @@ button.subscribe{
 }
 #facebook{
 background-image: url("../image/footerlogos/facebook.png");
-padding-top: 7px;
+padding-top: 5px;
 font-weight: bold;
-text-align: center;
-height: 39px;
-width: 39px;
+height: 42px;
+width: 42px;
 color: red;
 text-align: center;
 background-repeat: no-repeat;
@@ -229,7 +228,7 @@ font-size: 20px;
 }
 #twitter{
 background-image: url("../image/footerlogos/twitter.png");
-padding-top: 7px;
+padding-top: 3px;
 font-weight: bold;
 text-align: center;
 height: 42px;
