@@ -7,11 +7,14 @@ $(document).ready(function(){
     event.preventDefault();
     var email=$("input#subscribed").val();
     //var validate=isValidEmailAddress(email);
-    if(email.test(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)){
-      alert("you are subscribed");
-    }
-    else{
-    alert("you entered wrong email");
+    var re=new RegExp();
+      re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+  if(re.test(email)){
+     alert("you are  subscribed");
   }
+  else {
+    alert("Enter a valid gmail");
+  }
+  $("form#subscribtion")[0].reset();
   });
 });
