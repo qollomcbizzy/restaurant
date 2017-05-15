@@ -6,6 +6,16 @@
   <script src="js/jquery.js"></script>
   <script src="js/script.js"></script>
   <title>restaurant</title>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99101486-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
     <div class="row" id="logo">
@@ -153,7 +163,6 @@
     </div>
   </div>
     <div class="row" id="fastfoodimage">
-        <form id="subcribe">
           <div class="row" id="subscribe">
             <div class="row">
             <label class="col-md-8 col-md-offset-3" style="color:white;font-size:27px;">
@@ -161,13 +170,14 @@
             </label>
           </div>
           <div class="row">
+            <form id="subscribtion">
              <div class="col-md-3 col-md-offset-3">
-                <input type="email" class="form-control" id="subscribe" placeholder="your email..">
+                <input type="email" class="form-control" id="subscribed" placeholder="your email..">
              </div>
-               <button type="submit" class="btn col-md-2 col-md-offset-0.5 subscribe">subscribe</button>
+               <button type="submit" class="btn col-md-2 col-md-offset-0.5 subscrib">subscribe</button>
+            </form>
            </div>
          </div>
-        </form>
     </div>
 </body>
     <div class="row" id="myfooter">
