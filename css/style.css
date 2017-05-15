@@ -3,6 +3,12 @@
   background-image: url("../image/backgrounds/landing.jpg");
 
 }
+#logo span {
+  color:white;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
 #logo1{
   color:white;
   font-size: 30px;
